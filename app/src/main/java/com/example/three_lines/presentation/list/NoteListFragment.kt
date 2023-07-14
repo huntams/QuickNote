@@ -23,6 +23,7 @@ class NoteListFragment : Fragment(R.layout.fragment_note_list) {
 
     private val binding by viewBinding(FragmentNoteListBinding::bind)
     private val viewModel by viewModels<NotesListViewModel>()
+
     @Inject
     lateinit var listAdapter: NoteListAdapter
 

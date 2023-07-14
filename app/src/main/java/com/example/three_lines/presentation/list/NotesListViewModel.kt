@@ -34,7 +34,6 @@ class NotesListViewModel @Inject constructor(
         viewModelScope.launch {
             getNotesUseCase.execute().collect { list ->
                 _notesListLiveData.value = list.map {
-
                     it.copy(
                         text = it.text,
                         uri = it.uri,
