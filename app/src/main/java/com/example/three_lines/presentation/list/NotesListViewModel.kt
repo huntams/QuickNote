@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.three_lines.data.Note
+import com.example.three_lines.domain.model.Note
 import com.example.three_lines.domain.AddNoteUseCase
 import com.example.three_lines.domain.DeleteNoteUseCase
 import com.example.three_lines.domain.FilterNotesUseCase

@@ -1,6 +1,5 @@
 package com.example.three_lines.presentation.list
 
-import android.graphics.Bitmap
 import android.os.Bundle
 import android.view.View
 import android.widget.SearchView
@@ -14,7 +13,6 @@ import by.kirich1409.viewbindingdelegate.viewBinding
 import com.example.three_lines.R
 import com.example.three_lines.databinding.FragmentNoteListBinding
 import dagger.hilt.android.AndroidEntryPoint
-import java.io.ByteArrayOutputStream
 import javax.inject.Inject
 
 
@@ -53,8 +51,8 @@ class NoteListFragment : Fragment(R.layout.fragment_note_list) {
                         viewModel.onDeleteClicked(note)
                     }
                 }
-
             }
+
 
 
             floatingActionButton.setOnClickListener {

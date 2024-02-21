@@ -1,4 +1,4 @@
-package com.example.three_lines.data
+package com.example.three_lines.domain.model
 
 
 

@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.three_lines.data.Note
+import com.example.three_lines.domain.model.Note
 import com.example.three_lines.databinding.ItemNoteBinding
 import javax.inject.Inject
 

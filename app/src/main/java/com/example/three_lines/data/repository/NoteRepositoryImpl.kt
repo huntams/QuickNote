@@ -1,6 +1,6 @@
 package com.example.three_lines.data.repository
 
-import com.example.three_lines.data.Note
+import com.example.three_lines.domain.model.Note
 import com.example.three_lines.data.db.NotesDAO
 import com.example.three_lines.data.db.model.NoteEntity
 import com.example.three_lines.data.mappers.NotesMapper
