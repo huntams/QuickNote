@@ -1,4 +1,4 @@
-package com.example.three_lines.data.repository
+package com.example.three_lines.domain
 
 import com.example.three_lines.domain.model.Note
 import kotlinx.coroutines.flow.Flow

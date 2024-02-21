@@ -1,7 +1,6 @@
 package com.example.three_lines.domain
 
 
-import com.example.three_lines.data.repository.NotesRepository
 import javax.inject.Inject
 
 class AddNoteUseCase @Inject constructor(

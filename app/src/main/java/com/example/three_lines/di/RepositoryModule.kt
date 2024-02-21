@@ -1,7 +1,7 @@
 package com.example.three_lines.di
 
 import com.example.three_lines.data.repository.NoteRepositoryImpl
-import com.example.three_lines.data.repository.NotesRepository
+import com.example.three_lines.domain.NotesRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

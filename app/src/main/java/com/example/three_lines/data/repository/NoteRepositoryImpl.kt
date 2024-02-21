@@ -4,6 +4,7 @@ import com.example.three_lines.domain.model.Note
 import com.example.three_lines.data.db.NotesDAO
 import com.example.three_lines.data.db.model.NoteEntity
 import com.example.three_lines.data.mappers.NotesMapper
+import com.example.three_lines.domain.NotesRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
